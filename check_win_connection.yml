@@ -4,8 +4,8 @@
    gather_facts: true
    tasks:
    -name: Ping Windows Server
-     win_ping:
-      data: "Connection OK"
+    win_ping:
+     data: "Connection OK"
    - name: Display os distribution and os name
      debug:
       msg: 

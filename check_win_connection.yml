@@ -1,12 +1,12 @@
 ---
- - name: Get os distribution and os name from facts
+ - name: Check Windows connection and get OS information from facts
    hosts: all
    gather_facts: true
    tasks:
-   - name: Ping Windows Server
+   - name: Pinging Windows Server
      win_ping:
       data: "Connection OK"
-   - name: Display os distribution and os name
+   - name: Displaying os distribution and os name
      debug:
       msg: 
        - "The OS distribution: {{ansible_distribution}}"

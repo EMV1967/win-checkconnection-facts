@@ -6,7 +6,7 @@
    - name: Pinging Windows Server
      win_ping:
       data: "Connection OK"
-   - name: Displaying os distribution and os name
+   - name: Displaying system information
      debug:
       msg: 
        - "The OS distribution: {{ansible_distribution}}"
@@ -14,6 +14,5 @@
        - "The OS family: {{ansible_os_family}}"
        - "Architecture: {{ansible_architecture}}"
        - "Memoria Total (MB): {{ansible_memtotal_mb}}"
-       - "Memoria Libre (MB): {{ansible_memfree_mb}}"
        - "Procesadores: {{ansible_processor_cores}}"
 

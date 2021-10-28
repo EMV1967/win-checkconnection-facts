@@ -10,6 +10,7 @@
      debug:
       msg: 
        - "Server Name: {{ansible_hostname}}"
+       - "IP Address: {{ansible_all_ipv4_addresses}}"
        - "The OS distribution: {{ansible_distribution}}"
        - "The OS name: {{ansible_system}}"
        - "The OS family: {{ansible_os_family}}"

@@ -1,5 +1,5 @@
 ---
- - name: Check Windows connection and get OS information from facts
+ - name: Check Windows connection and get system information from facts
    hosts: all
    gather_facts: true
    tasks:

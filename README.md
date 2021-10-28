@@ -1,5 +1,5 @@
 # prj_win_checkconnection_facts
-Simple playbook to retrive server information:
+Simple playbook to retrieve server information:
 - Hostname
 - IPAddress
 - Architecture
